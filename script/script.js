@@ -23,17 +23,12 @@ let tNumber = 100
 
 //creare ciclo che coinvolga multipli
 for (let i = 1; i <= tNumber; i++) {
-    if (i % 5 === 0 && i % 3 === 0) 
+    if (i % 5 === 0 && i % 3 === 0) //multipli in comune
         console.log("FizzBuzz")
-    else if(i % 5 === 0)
+    else if(i % 5 === 0) //multipli di 5
         console.log("Buzz")
-    else if(i % 3 === 0)
+    else if(i % 3 === 0) //multipli di 3
         console.log("Fizz")
     else
-        console.log(i + ' ' + "non è divisibile per i numeri indicati")
-    
-
-    
-    
-
+        console.log(i + ' ' + "non è divisibile per i numeri indicati") //non divisibili
 }
