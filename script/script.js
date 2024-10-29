@@ -23,5 +23,8 @@ let tNumber = 100
 
 //creare ciclo che coinvolga multipli
 for (let i = 1; i <= tNumber; i++) {
+    if (i % 5 === 0 && i % 3 === 0) 
+        console.log("FizzBuzz")
+    
 
 }
