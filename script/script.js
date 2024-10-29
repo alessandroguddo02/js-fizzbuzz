@@ -29,6 +29,8 @@ for (let i = 1; i <= tNumber; i++) {
         console.log("Buzz")
     else if(i % 3 === 0)
         console.log("Fizz")
+    else
+        console.log(i + ' ' + "non è divisibile per i numeri indicati")
     
 
     
