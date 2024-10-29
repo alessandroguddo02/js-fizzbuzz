@@ -17,18 +17,43 @@ Abbiamo visto qualcosa di particolare che possiamo usare?
 
 
 "use strict";
-console.clear()
+console.clear();
 //creazione variabile totale numeri
-let tNumber = 100
+let tNumber = 100;
 
 //creare ciclo che coinvolga multipli
 for (let i = 1; i <= tNumber; i++) {
     if (i % 5 === 0 && i % 3 === 0) //multipli in comune
-        console.log("FizzBuzz")
+        console.log("FizzBuzz");
     else if(i % 5 === 0) //multipli di 5
-        console.log("Buzz")
+        console.log("Buzz");
     else if(i % 3 === 0) //multipli di 3
-        console.log("Fizz")
+        console.log("Fizz");
     else
-        console.log(i + ' ' + "non è divisibile per i numeri indicati") //non divisibili
+        console.log(i + ' ' + "non è divisibile per 3 e 5"); //non divisibili
+}
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+let line = ''
+//triangolo
+for (let f = 1; f <= 10; f++){
+    line += '#';
+    // line = line + '#';
+    console.log(line)
+}
+
+//triangolo inverso
+for (let k = 10; k > 0; k--){
+    // ##########
+    // #########
+    // ########
+    // #######
+    // ######
+    line = line.substring(1);
+    console.log(line)
 }
