@@ -25,6 +25,9 @@ let tNumber = 100
 for (let i = 1; i <= tNumber; i++) {
     if (i % 5 === 0 && i % 3 === 0) 
         console.log("FizzBuzz")
+    else if(i % 5 === 0)
+        console.log("Buzz")
+    
     
 
 }
